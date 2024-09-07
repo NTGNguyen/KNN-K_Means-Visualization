@@ -84,7 +84,7 @@ class CoordinateSystem(tk.Canvas):
             coordinate_lists[point_min_dis[1]].append([cluster.x,cluster.y])
         for point in points_data:
             coordinate_move = calculate_average(coordinate_lists[point.color])
-            if coordinate_move!=None:
+            if coordinate_move is not None:
                 self.point_drawer.move_point(point.point_id,coordinate_move[0],coordinate_move[1])
                 point.x = coordinate_move[0]
                 point.y = coordinate_move[1]
