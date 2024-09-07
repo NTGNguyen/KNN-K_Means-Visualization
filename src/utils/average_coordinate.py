@@ -10,7 +10,7 @@ def calculate_average(coordinate_list)->list[float] | None:
     if not coordinate_list:
         return None  
 
-    
+
     sum_x = sum(x for x, y in coordinate_list)
     sum_y = sum(y for x, y in coordinate_list)
 

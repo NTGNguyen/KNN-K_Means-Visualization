@@ -40,4 +40,4 @@ class MainPage(tk.Frame):
         """Triggers the next step in the process."""
         self.coordinate_system.start_algor()
 
-        
+

@@ -13,12 +13,12 @@ class ClusterDrawer:
     def get_clusters(self):
         """Returns a list of cluster data (x, y, color)."""
         return self.clusters
-    
+
     def recolor_cluster(self, cluster_id, new_color):
         """Updates the color of a cluster based on its ID."""
         self.canvas.itemconfig(cluster_id, fill=new_color)
-        
-    
+
+
 class Cluster:
     def __init__(self,cluster_id,x,y,color):
         self.cluster_id = cluster_id

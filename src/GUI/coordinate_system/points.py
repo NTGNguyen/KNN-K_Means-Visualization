@@ -17,11 +17,11 @@ class PointDrawer:
     def get_point_data(self):
         """Returns a list of point data (x, y, color)."""
         return self.points
-    
+
     def move_point(self,pid,new_x,new_y):
         radius = (self.canvas.coords(pid)[2] - self.canvas.coords(pid)[0]) / 2
         self.canvas.coords(pid, new_x - radius, new_y - radius, new_x + radius, new_y + radius)
-        
+
 
 class Point:
     def __init__(self,point_id,x,y,color):
