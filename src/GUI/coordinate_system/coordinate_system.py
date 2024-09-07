@@ -52,7 +52,7 @@ class CoordinateSystem(tk.Canvas):
         width = self.winfo_width()
         height = self.winfo_height()
         self.point_drawer.clear_points()  
-        
+
         for i in range(num_points):
             x = random.randint(50, width - 50)
             y = random.randint(50, height - 50)
@@ -61,7 +61,7 @@ class CoordinateSystem(tk.Canvas):
     def add_cluster(self, x, y, color):
         """Adds a cluster at (x, y) with the given color."""
         self.cluster_drawer.draw_cluster(x, y, color)
-    
+
     def start_algor(self):
         coordinate_red_list = []
         coordinate_blue_list = []
@@ -88,13 +88,13 @@ class CoordinateSystem(tk.Canvas):
                 self.point_drawer.move_point(point.point_id,coordinate_move[0],coordinate_move[1])
                 point.x = coordinate_move[0]
                 point.y = coordinate_move[1]
-        
 
-        
-        
 
-            
-                
-                
 
-    
+
+
+
+
+
+
+
