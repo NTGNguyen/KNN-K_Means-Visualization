@@ -72,8 +72,8 @@ class CoordinateSystem(tk.Canvas):
             "red": coordinate_red_list,
             "blue": coordinate_blue_list,
             "orange": coordinate_orange_list,
-            "brown": coordinate_brown_list,
-            "green": coordinate_green_list,
+            "brown4": coordinate_brown_list,
+            "green4": coordinate_green_list,
         }       
         clusters_data:list[Cluster] = self.cluster_drawer.get_clusters()
         points_data:list[Point] = self.point_drawer.get_point_data()
