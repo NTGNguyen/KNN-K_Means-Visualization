@@ -1,4 +1,4 @@
-def calculate_average(coordinate_list)->list[float] | None:
+def calculate_average(coordinate_list) -> list[float] | None:
     """Function to Calculate the average of coordinate list
 
     Args:
@@ -8,8 +8,7 @@ def calculate_average(coordinate_list)->list[float] | None:
         List[float]: The Average Coordinate
     """
     if not coordinate_list:
-        return None  
-
+        return None
 
     sum_x = sum(x for x, y in coordinate_list)
     sum_y = sum(y for x, y in coordinate_list)

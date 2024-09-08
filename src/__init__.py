@@ -1,3 +1,3 @@
-from .GUI import App,StartButton
+from .GUI import App, StartButton
 
-__all__ = ['App','StartButton']
+__all__ = ['App', 'StartButton']

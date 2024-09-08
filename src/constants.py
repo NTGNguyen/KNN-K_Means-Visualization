@@ -1,7 +1,7 @@
 import sys
 
 if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
-    BUNDLE_DIR: str = f"{sys._MEIPASS}/"  
+    BUNDLE_DIR: str = f"{sys._MEIPASS}/"
 else:
     BUNDLE_DIR = ""
 
@@ -30,4 +30,4 @@ BLUE = 'blue'
 ORANGE = 'orange'
 BROWN = 'brown4'
 GREEN = 'green4'
-COLORS = [RED,BLUE,ORANGE,BROWN,GREEN]
+COLORS = [RED, BLUE, ORANGE, BROWN, GREEN]
