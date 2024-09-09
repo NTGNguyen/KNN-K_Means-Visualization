@@ -44,4 +44,18 @@ Python GUI to visualize <strong>KMeans/KNN Algorithm</strong>
 
 <hr>
 
-## Chức Năng
+## 📖 Giới Thiệu
+
+- Là một Python GUI để visualize lại thuật toán K Means Clustering sử dụng [Tkinter](https://docs.python.org/3/library/tkinter.html)
+- Hỗ trợ thêm cho đồ án (bài tập nhóm) cuối kỳ của môn CS115 (UIT)
+
+## 🧮 Thuật Toán
+
+- Bạn có thể tham khảo các link dưới đây để đọc về thuật toán (Hong có trên repo đâu hehe)
+  - [English](https://www.simplilearn.com/tutorials/machine-learning-tutorial/k-means-clustering-algorithm#:~:text=K%2DMeans%20clustering%20is%20an,'K'%20is%20a%20number.)
+  - [Vietnamese](https://trituenhantao.io/machine-learning-co-ban/bai-4-k-means-clustering/)
+
+> [!NOTE]
+>
+> - Trong GUI này không dùng [Euclidean Distance ](https://en.wikipedia.org/wiki/Euclidean_distance) > ![Alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/9c4f6ecd8278ed2b083d75e1943cb76f43bf48df)
+> - Dùng [Mahhatan Distance](https://simple.wikipedia.org/wiki/Manhattan_distance) > ![Alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/ead7631ca37af0070e989f8415b4cd6886229720)
