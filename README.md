@@ -57,5 +57,6 @@ Python GUI to visualize <strong>KMeans/KNN Algorithm</strong>
 
 > [!NOTE]
 >
-> - Trong GUI này không dùng [Euclidean Distance ](https://en.wikipedia.org/wiki/Euclidean_distance) > ![Alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/9c4f6ecd8278ed2b083d75e1943cb76f43bf48df)
-> - Dùng [Mahhatan Distance](https://simple.wikipedia.org/wiki/Manhattan_distance) > ![Alt text](https://wikimedia.org/api/rest_v1/media/math/render/svg/ead7631ca37af0070e989f8415b4cd6886229720)
+> - Trong GUI này không dùng [Euclidean Distance ](https://en.wikipedia.org/wiki/Euclidean_distance)
+> - Dùng [Mahhatan Distance](https://simple.wikipedia.org/wiki/Manhattan_distance)
+
