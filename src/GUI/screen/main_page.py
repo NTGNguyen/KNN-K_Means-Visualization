@@ -1,12 +1,11 @@
-from src.constants import DRAW_POINTS_TEXT, NEXT_STEP_BUTTON_TEXT
 import tkinter as tk
 from tkinter import messagebox
 
+from src.constants import DRAW_POINTS_TEXT, NEXT_STEP_BUTTON_TEXT
 from src.GUI.coordinate_system.coordinate_system import CoordinateSystem
 
-from .form_frame import FormFrame
-
 from .button import ButtonInFrame2
+from .form_frame import FormFrame
 
 
 class MainPage(tk.Frame):

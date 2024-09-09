@@ -1,6 +1,8 @@
 """Some Button Classes using in the python GUI"""
 import tkinter as tk
+
 from src.constants import START_BUTTON_TEXT
+
 
 class ButtonInFrame2(tk.Button):
     """Button using in frame 2
@@ -8,9 +10,11 @@ class ButtonInFrame2(tk.Button):
     Args:
         tk (Button): The Button modules in tkinter
     """
-    def __init__(self,text,controller,action):
-        super().__init__(controller,text=text, command=action)
+
+    def __init__(self, text, controller, action):
+        super().__init__(controller, text=text, command=action)
         self.pack(side=tk.TOP, padx=5)
+
 
 class StartButton(tk.Button):
     """The Start Button class heritant from Button in tk Modules
@@ -35,6 +39,3 @@ class StartButton(tk.Button):
 
     def on_click(self):
         self.controller.show_frame(self.target_frame)
-
-
-
