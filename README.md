@@ -1,4 +1,5 @@
 # 🌀KNN-K_Means-Visualization🌀
+
 <pre align="center">
 <img src="https://github.com/NTGNguyen/KNN-K_Means-Visualization/blob/main/assets/Automation_IMG_Kmeans_RemoveBG.gif" width = "500">  
             ██╗  ██╗███╗   ██╗███╗   ██╗             
@@ -19,6 +20,7 @@
 
 Python GUI to visualize <strong>KMeans/KNN Algorithm</strong>
 </pre>
+
 ![GitHub Created At](https://img.shields.io/github/created-at/NTGNguyen/KNN-K_Means-Visualization?style=for-the-badge)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/NTGNguyen/KNN-K_Means-Visualization?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/NTGNguyen/KNN-K_Means-Visualization?style=for-the-badge)
@@ -39,11 +41,7 @@ Python GUI to visualize <strong>KMeans/KNN Algorithm</strong>
 ![Static Badge](https://img.shields.io/badge/pre--commit-FAB040?style=for-the-badge&logo=precommit&logoColor=white&color=yellow)
 ![Static Badge](https://img.shields.io/badge/github--actions-FAB040?style=for-the-badge&logo=githubactions&logoColor=white&color=red)
 ![Static Badge](https://img.shields.io/badge/github--copilot-FB040?style=for-the-badge&logo=githubcopilot&logoColor=white&color=black)
+
 <hr>
 
-
-
-
-
-
-
+## Chức Năng
