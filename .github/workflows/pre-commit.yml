@@ -3,7 +3,7 @@ name: Pre-commit Auto Fix
 on:
   push:
     branches:
-      - main # Change this to your default branch if it's not 'main'
+      - main
 
 jobs:
   pre-commit:
@@ -28,26 +28,7 @@ jobs:
           pip install pre-commit
 
       - name: Run pre-commit
-        id: run_pre_commit
-        run: pre-commit run --all-files || true
-
-      - name: Create new branch
-        run: |
-          git checkout -b auto/pre-commit-fix
-
-      - name: Pull latest changes
-        run: |
-          git pull origin main
-
-      - name: Commit changes
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m "🎨 Auto Code Fix (Pre-commit)" || echo "No changes to commit"
-          git push --set-upstream origin auto/pre-commit-fix
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pre-commit run --all-files
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
@@ -55,7 +36,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "🎨 Auto Code Fix (Pre-commit)"
           branch: auto/pre-commit-fix
-          base: main
           title: "🎨 Auto Code Fix (Pre-commit)"
           body: "This pull request contains auto code fixes from pre-commit."
           labels: |
