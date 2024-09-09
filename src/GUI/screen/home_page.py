@@ -6,6 +6,7 @@ from src.constants import BANNER
 from .start_button import StartButton
 
 
+
 class HomePage(tk.Frame):
     """HomePage class heritant from Frame in tkinter modules
 

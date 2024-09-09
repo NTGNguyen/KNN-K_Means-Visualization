@@ -12,6 +12,13 @@ class StartButton(tk.Button):
     """
 
     def __init__(self, parent, controller, target_frame):
+        """The Start button Constructer
+
+        Args:
+            parent (Frame): The Frame contains Button   
+            controller (App): The app controller this button
+            target_frame (str): Name of target frame
+        """
         super().__init__(parent, text=START_BUTTON_TEXT, command=self.on_click)
         self.controller = controller
         self.pack(pady=20)
