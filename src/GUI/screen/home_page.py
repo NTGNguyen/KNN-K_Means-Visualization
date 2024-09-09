@@ -1,9 +1,9 @@
 """The Home Page element(parent is app)"""
 import tkinter as tk
 
-from src.constants import BANNER
+from src.constants import BANNER_IMG_PATH_REMOVEBG
 
-from .start_button import StartButton
+from .button import StartButton
 
 
 class HomePage(tk.Frame):
@@ -18,8 +18,10 @@ class HomePage(tk.Frame):
         super().__init__(parent)
         self.controller = controller
 
-        label = tk.Label(self, text=BANNER)
-        label.pack(pady=20)
+        self.banner_image = tk.PhotoImage(file=BANNER_IMG_PATH_REMOVEBG)
+        label = tk.Label(self, image=self.banner_image)
+        label.pack(side="top", fill="both", expand=True)
 
         button = StartButton(self, controller, "MainPage")
-        button.pack()
+        button.config(width=20, height=3)
+        button.pack(side="bottom", pady=150)  
