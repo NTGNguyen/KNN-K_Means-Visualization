@@ -7,7 +7,7 @@ class ClusterDrawer:
         # List to keep track of cluster IDs and their positions
         self.clusters: list[Cluster] = []
 
-    def draw_cluster(self, x, y, color, radius=5):
+    def draw_cluster(self, x, y, color, radius=20):
         """Draws a cluster (circle) at (x, y) with the given radius and color."""
         cluster_id = self.canvas.create_oval(
             x - radius, y - radius, x + radius, y + radius, outline="black", fill=color)

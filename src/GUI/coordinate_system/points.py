@@ -3,7 +3,7 @@ class PointDrawer:
         self.canvas = canvas
         self.points = []
 
-    def draw_point(self, x, y, color: str = 'blue', radius=10):
+    def draw_point(self, x, y, color: str = 'blue', radius=40):
         """Draws a point (larger circle) at (x, y) with the given radius and color."""
         point_id = self.canvas.create_oval(
             x - radius, y - radius, x + radius, y + radius, outline=color, fill=color)
