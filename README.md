@@ -1,6 +1,6 @@
 # 🌀KNN-K_Means-Visualization🌀
 <pre align="center">
-<img src="https://raw.githubusercontent.com/NTGNguyen/KNN-K_Means-Visualization/main/assets/logo.png" width = "250">  
+<img src="https://github.com/NTGNguyen/KNN-K_Means-Visualization/blob/main/assets/Automation_IMG_Kmeans_RemoveBG.gif" width = "500">  
             ██╗  ██╗███╗   ██╗███╗   ██╗             
             ██║ ██╔╝████╗  ██║████╗  ██║             
             █████╔╝ ██╔██╗ ██║██╔██╗ ██║             
