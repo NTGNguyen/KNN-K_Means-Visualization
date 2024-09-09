@@ -51,6 +51,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "🎨 Auto Code Fix (Pre-commit)"
           branch: auto/pre-commit-fix
+          base: main
           title: "🎨 Auto Code Fix (Pre-commit)"
           body: "This pull request contains auto code fixes from pre-commit."
           labels: |
