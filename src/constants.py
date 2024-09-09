@@ -1,9 +1,4 @@
-import sys
-
-if getattr(sys, "frozen", False) and hasattr(sys, "_MEIPASS"):
-    BUNDLE_DIR: str = f"{sys._MEIPASS}/"
-else:
-    BUNDLE_DIR = ""
+"""Some constants throughout the GUI"""
 
 
 BANNER = """
