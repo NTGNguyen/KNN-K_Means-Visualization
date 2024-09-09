@@ -56,7 +56,7 @@ class App(tk.Tk):
         """
         self.attributes('-fullscreen', not self.attributes('-fullscreen'))
 
-    def show_frame(self, page_name:str) -> None:
+    def show_frame(self, page_name: str) -> None:
         """Show frame specific in page_name
 
         Args:
