@@ -1,6 +1,6 @@
 [project]
 name = "KNN-K_Means-Visualization"
-version = "0.1.0"
+version = "1.0.0"
 description = "Project for practicing in CS115(UIT Code Subject)"
 authors = [{ name = "NTGNguyen", email = "nguyen80339@gmail.com" }]
 dependencies = ["tk>=0.1.0"]
